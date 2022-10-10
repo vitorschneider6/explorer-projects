@@ -99,10 +99,11 @@ main{
   position: relative;
 
   transition: var(--transition-pattern);
+
 }
 
 .card:hover h2{
-  animation: down-top 200ms forwards;
+  opacity: 1;
 }
 
 .card:hover{
@@ -154,6 +155,7 @@ h2{
   font-weight: 800;
 
   opacity: 0;
+  transition: var(--transition-pattern);
 
   display: flex;
   flex-direction: column;
